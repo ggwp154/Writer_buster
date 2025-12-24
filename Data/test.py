@@ -421,7 +421,8 @@ class VectorImageProcessor:
             image = self.apply_blur_simple(image, self.blur_strength.get() * 0.5, self.blur_type.get())
 
         return image
-
+    def hi(self):
+        print("Hi!")
     def trace_with_vectorizers(self, image, output_path):
         """
         Трассировка с использованием библиотеки vectorizers
